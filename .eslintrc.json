@@ -1,3 +1,12 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "settings": {
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "import/resolver": {
+      "babel-module": {},
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".native.js"]
+      }
+    }
+  }
 }
